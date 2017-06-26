@@ -1,4 +1,5 @@
 #Cognitive Services & Xamarin
 
+This repository contains the demo made in the Cognitive Services & Xamarin session.
 
-![Prueba](cognitive.gif)
+![Cognitive](cognitive.gif)
