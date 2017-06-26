@@ -1,1 +1,3 @@
-# NETConfARv2017
+#Cognitive Services & Xamarin
+
+![Prueba](cognitive.gif)

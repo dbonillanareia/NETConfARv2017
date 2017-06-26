@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:CognitiveMachineBaby" x:Class="CognitiveMachineBaby.CognitiveMachineBabyPage">
+    <ScrollView Padding="40">
+        <StackLayout>
+                <Entry Placeholder="Image url" 
+                        Text="{Binding ImageUrl}"/>
+                <Button Text="Analyze!"
+                        Command="{Binding MakeAnalysisCommand}"
+                        HorizontalOptions="Center"
+                        VerticalOptions="CenterAndExpand" />
+                <Image Source="{Binding ImageUrl}"></Image>
+                <Label Text="{Binding Detail}"
+                        HorizontalOptions="Center"
+                        VerticalOptions="CenterAndExpand"/>
+                <Label Text="{Binding Caption}"
+                        HorizontalOptions="Center"
+                        VerticalOptions="CenterAndExpand"/>
+                <Label Text="{Binding Confidence}"
+                        HorizontalOptions="Center"
+                        VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
